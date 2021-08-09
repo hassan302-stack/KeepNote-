@@ -1,0 +1,79 @@
+body{
+  margin: 0%;
+  padding: 0%;
+  background-color: rgb(227, 216, 238);
+ 
+   
+}
+
+.box{
+  display: flex;
+     padding-left: 20px;
+    width: 100vw;
+    height: 3.8rem;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;  
+    background: rgb(233, 236, 19);
+   
+  }
+  .btn{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5px;
+    margin-top: 5px;
+    
+  }
+  #addNote{
+    border-radius: 50px;
+    background: gainsboro;
+    height: 40px;
+    width: 110px;
+  }
+  #addNote:hover{
+  background: rgb(233, 236, 19);
+    display: block;
+  }
+  h3{
+    font-weight: 400;
+  }
+  .notes{
+    width: 18vw;
+    height: 10rem;
+    background: white;
+    display: inline-flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: flex-start;
+    overflow-y: scroll;
+    margin-left:25px
+  }
+  .operation{
+  
+    position: absolute;
+    display: inline-flex;
+    justify-content: flex-end;
+  
+  }
+  .container{
+   width: 100vw;
+   height: 100vh; 
+  }
+  .fa{
+    margin-top: 3px;
+    margin-right: 3px;
+  }
+  .fa-edit {
+    background: green;
+    color: white;
+    
+  }
+  .fa-trash-alt {
+    background: rgb(202, 20, 20);
+    color: white;
+  }
+  .hidden{
+    visibility: hidden;
+  }
