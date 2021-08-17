@@ -40,24 +40,20 @@ body{
     font-weight: 400;
   }
   .notes{
-    width: 18vw;
-    height: 10rem;
+    width: 100%;
+    height: 100%;
+    position: absolute;
     background: white;
-    display: inline-flex;
-    justify-content: flex-end;
-    flex-direction: row;
-    align-items: flex-start;
-    overflow-y: scroll;
-    margin-left:25px
   }
   .operation{
-  
+  z-index: 1;
+    /* position: absolute; */
     position: absolute;
-    display: inline-flex;
-    justify-content: flex-end;
+    right: 0;
   
   }
   .container{
+ 
    width: 100vw;
    height: 100vh; 
   }
@@ -76,4 +72,18 @@ body{
   }
   .hidden{
     visibility: hidden;
+    /* display: inline; */
+  }
+  .notess{
+    position: relative;
+    border: 1px solid red;
+    width: 20%;
+    height: 30%;
+    display: inline-flex
+  }
+  textarea{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 0;
   }
